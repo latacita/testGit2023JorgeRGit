@@ -8,5 +8,8 @@
 ====== ============================ ================================
  (01)	git clone url
  (02)	editar txt
- (03)	git commit -m "Paso 3"
- (04)	git push origin master	
+ (03)	git add . y git commit -m "Paso 3"
+ (04)	git push origin master
+ (06)	git add . y git commit -m "Paso 6"
+ (07)	git branch develop
+ (08)	git branch feature/ticket220 y git checkout feature...	
