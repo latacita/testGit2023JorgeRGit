@@ -13,4 +13,9 @@
  (06)	git add . y git commit -m "Paso 6"
  (07)	git branch develop
  (08)	git branch feature/ticket220 y git checkout feature...
- (14)	git stash	
+ (14)	git stash
+ (18)	git stash apply y editar el txt
+ (19)	git add . y git commit -m "Paso 19)
+ (20)	git checkout develop
+ (21)	git branch feature/ticket222
+ (22)	git checkout feature/ticket220	
