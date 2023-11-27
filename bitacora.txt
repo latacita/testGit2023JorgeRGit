@@ -12,4 +12,5 @@
  (04)	git push origin master
  (06)	git add . y git commit -m "Paso 6"
  (07)	git branch develop
- (08)	git branch feature/ticket220 y git checkout feature...	
+ (08)	git branch feature/ticket220 y git checkout feature...
+ (14)	git stash	
