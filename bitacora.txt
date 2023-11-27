@@ -34,3 +34,8 @@
  (31)	git push origin develop		Para evitar subir la etiqueta no he usado la opcion --tags (mas o menos, no lo vi bien en Sourcetree)	
  (32)	git checkout feature/ticket222
  (33)	git merge develop		No he especificado como para que git haga fast forward
+ (35)	git add . y git commit -m "Paso 35"
+ (36)	git checkout develop
+ (37)	git merge --no-ff feature/ticket222
+ (38)	git checkout master
+ (39)	git merge --no-ff develop
