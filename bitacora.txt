@@ -18,4 +18,5 @@
  (19)	git add . y git commit -m "Paso 19)
  (20)	git checkout develop
  (21)	git branch feature/ticket222
- (22)	git checkout feature/ticket220	
+ (22)	git checkout feature/ticket220	Para fusionar ticket220 a develop en este punto usariamos fast-forward,
+					pues no hemos modificado develop desde la creación de esta rama (no ha divergido)	
