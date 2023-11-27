@@ -9,4 +9,9 @@
  (01)	git clone url
  (02)	editar txt
  (03)	git commit -m "Paso 3"
- (04)	git push origin master	
+ (04)	git push origin master
+ (10)	git add . y git commit -m Paso 10
+ (11)	git checkout develop
+ (12)	git branch feature/ticket221
+ (16)	git add . y git commit -m "Paso 16"
+ (17)	git checkout feature/ticket221
