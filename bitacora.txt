@@ -13,10 +13,19 @@
  (06)	git add . y git commit -m "Paso 6"
  (07)	git branch develop
  (08)	git branch feature/ticket220 y git checkout feature...
+ (10)	git add . y git commit -m Paso 10
+ (11)	git checkout develop
+ (12)	git branch feature/ticket221
  (14)	git stash
+ (16)	git add . y git commit -m "Paso 16"
+ (17)	git checkout feature/ticket221
  (18)	git stash apply y editar el txt
  (19)	git add . y git commit -m "Paso 19)
  (20)	git checkout develop
  (21)	git branch feature/ticket222
  (22)	git checkout feature/ticket220	Para fusionar ticket220 a develop en este punto usariamos fast-forward,
-					pues no hemos modificado develop desde la creación de esta rama (no ha divergido)	
+					pues no hemos modificado develop desde la creación de esta rama (no ha divergido)
+ (24)	git add . y git commit -m "Paso 24"
+ (25)	git checkout develop
+ (26)	git merge --no-ff feature/ticket220
+ (27)	git merge --no-ff feature/ticket221	Aqui surgen conflictos. Ordeno las cosas y dejo la bitacora bien.
